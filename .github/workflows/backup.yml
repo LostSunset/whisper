@@ -2,7 +2,7 @@ name: Backup Fork and Sync
 
 on:
   schedule:
-    - cron: '0 0 * * 0'  # 每週日午夜執行
+    - cron: '0 0 * * 1'  # 每週日午夜執行
   workflow_dispatch:  # 允許手動觸發
 
 env:
